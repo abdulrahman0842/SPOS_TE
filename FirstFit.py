@@ -4,15 +4,6 @@ m = len(processSize)
 n = len(blockSize)
 blockNum = [-1]*n
 
-
-for i in range(m):
-    for j in range(n):
-        list=[-1]*n
-        blockSize[j] = blockSize[j]-processSize[i]
-        index = blockSize.index(min(blockSize))
-print(blockSize)
-
-
 for i in range(m):
     for j in range(n):
         if blockSize[j]>=processSize[i]:
