@@ -3,7 +3,6 @@ ct=[0]*len(processes)
 tat=[0]*len(processes)
 wt=[0]*len(processes)
 
-
 for i in range(len(processes)):
     min_idx = i
     for j in range(i + 1, len(processes)):
